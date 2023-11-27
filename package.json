@@ -1,0 +1,21 @@
+{"name":"SoftwareDeveloperApp",
+  "version":"1.0.0",
+  "description":" This is Backend RESTFul Api was created with Node.js to provide HTTP VERBs for our Fullstack Application",
+  "type":"module",
+  "main":"index.js",
+  "scripts":{
+    "start": "nodemon ./index.js --exec babel-node"
+  },
+  "keywords":[],
+  "author":"Ajao.H-FullstackDeveloper",
+  "license":"ISC",
+  "dependencies":{
+    "@babel/cli":"^7.23.4",
+    "@babel/core":"^7.23.3",
+    "@babel/node":"^7.22.19",
+    "@babel/preset-env":"^7.23.3",
+    "body-parser":"^1.20.2",
+    "express":"^4.18.2",
+    "mongoose":"^8.0.1",
+    "nodemon":"^3.0.1"}
+}
