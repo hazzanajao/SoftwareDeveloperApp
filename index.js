@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from "mongoose";
 import bodyParser from "body-parser";
-import routes from "./src/routes/devRoutes.js";
+import routes from "./src/routes/devRoutes.js"
 import {mongoDB_URL, PORT} from "./config.js";
 
 const app = express();
